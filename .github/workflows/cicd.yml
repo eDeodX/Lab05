@@ -11,7 +11,7 @@ jobs:
       - name: Install compil
         run: |
           sudo apt-get update
-          sudo apte-get install -y cmake g++
+          sudo apt-get install -y cmake g++
       - name: configure with CMake
         run: cmake -H. -B_build -DCMAKE_CXX_COMPILER=g++
       - name: build project
@@ -26,7 +26,7 @@ jobs:
       - name: Install compil
         run: |
           sudo apt-get update
-          sudo apte-get install -y cmake clang
+          sudo apt-get install -y cmake clang
       - name: configure with CMake
         run: cmake -H. -B_build -DCMAKE_CXX_COMPILER=clang++
       - name: build project
