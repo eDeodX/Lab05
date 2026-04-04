@@ -8,16 +8,13 @@ jobs:
     steps:
       - name: check code
         uses: actions/checkout@v4
-
-      - name: Install compil:
+      - name: Install compil
         run: |
           sudo apt-get update
           sudo apte-get install -y cmake g++
-
-      - name: configure with CMake:
+      - name: configure with CMake
         run: cmake -H. -B_build -DCMAKE_CXX_COMPILER=g++
-
-      - name: build project:
+      - name: build project
         run: cmake --build _build
   build-clang:
     name: build with Clang (Linux)
@@ -26,16 +23,13 @@ jobs:
     steps:
       - name: check code
         uses: actions/checkout@v4
-
-      - name: Install compil:
+      - name: Install compil
         run: |
           sudo apt-get update
           sudo apte-get install -y cmake clang
-
-      - name: configure with CMake:
+      - name: configure with CMake
         run: cmake -H. -B_build -DCMAKE_CXX_COMPILER=clang++
-
-      - name: build project:
+      - name: build project
         run: cmake --build _build
   build-windows:
     name: build with VS 
@@ -44,9 +38,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: configure with CMake:
+      - name: configure with CMake
         run: cmake -H. -B_build -G "Visual Studio 17 2022" -A x64
-
-      - name: build project:
+      - name: build project
         run: cmake --build _build --config Release
