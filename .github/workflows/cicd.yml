@@ -1,5 +1,5 @@
 name: CI/CD on github
-on:  [push, pull-request]
+on:  [push, pull_request]
 jobs:
   build:
     name: Build step
