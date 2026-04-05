@@ -46,6 +46,14 @@ jobs:
         run: |
           if (Test-Path build) { Remove-item -Recurse -Force build }
           if (Test-Path _build) { Remove-item -Recurse -Force _build }
+      - name: debug - list files
+        run: |
+          echo "Current directory:"
+          Get-Location
+          echo "Files in root:"
+          Get-ChildItem
+          echo "CMakeLists.txt exists:"
+          Test-Path CMakeLists.txt
       - name: configure with CMake
         run: cmake .. -B_build -G "Visual Studio 17 2022" -A x64
       - name: build project
