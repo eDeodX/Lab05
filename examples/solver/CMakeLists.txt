@@ -9,6 +9,6 @@ target_link_libraries(solver_app PRIVATE
 )
 
 target_include_directories(solver_app PRIVATE
-	~/eDeodX/workspace/tasks/HM3/formatter_ex_lib/include
-	~/eDeodX/workspace/tasks/HM3/solver_lib/include
+	${CMAKE_CURRENT_SOURCE_DIR}/../../formatter_ex_lib/include
+	${CMAKE_CURRENT_SOURCE_DIR}/../../solver_lib/include
 )

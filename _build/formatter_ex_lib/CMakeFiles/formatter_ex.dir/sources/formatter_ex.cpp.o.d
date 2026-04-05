@@ -1,7 +1,7 @@
 formatter_ex_lib/CMakeFiles/formatter_ex.dir/sources/formatter_ex.cpp.o: \
- /root/eDeodX/workspace/tasks/HM3/formatter_ex_lib/sources/formatter_ex.cpp \
+ /root/eDeodX/workspace/tasks/lab04/formatter_ex_lib/sources/formatter_ex.cpp \
  /usr/include/stdc-predef.h \
- /root/eDeodX/workspace/tasks/HM3/formatter_ex_lib/include/formatter_ex.h \
+ /root/eDeodX/workspace/tasks/lab04/formatter_ex_lib/include/formatter_ex.h \
  /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
@@ -163,4 +163,4 @@ formatter_ex_lib/CMakeFiles/formatter_ex.dir/sources/formatter_ex.cpp.o: \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc \
- /root/eDeodX/workspace/tasks/HM3/formatter_lib/include/formatter.h
+ /root/eDeodX/workspace/tasks/lab04/formatter_ex_lib/../formatter_lib/include/formatter.h

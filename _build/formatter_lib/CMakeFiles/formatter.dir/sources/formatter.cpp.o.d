@@ -1,7 +1,7 @@
 formatter_lib/CMakeFiles/formatter.dir/sources/formatter.cpp.o: \
- /root/eDeodX/workspace/tasks/HM3/formatter_lib/sources/formatter.cpp \
+ /root/eDeodX/workspace/tasks/lab04/formatter_lib/sources/formatter.cpp \
  /usr/include/stdc-predef.h \
- /root/eDeodX/workspace/tasks/HM3/formatter_lib/include/formatter.h \
+ /root/eDeodX/workspace/tasks/lab04/formatter_lib/include/formatter.h \
  /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \

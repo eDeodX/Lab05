@@ -1,7 +1,7 @@
 solver_lib/CMakeFiles/solver.dir/sources/solver.cpp.o: \
- /root/eDeodX/workspace/tasks/HM3/solver_lib/sources/solver.cpp \
+ /root/eDeodX/workspace/tasks/lab04/solver_lib/sources/solver.cpp \
  /usr/include/stdc-predef.h \
- /root/eDeodX/workspace/tasks/HM3/solver_lib/include/solver.h \
+ /root/eDeodX/workspace/tasks/lab04/solver_lib/include/solver.h \
  /usr/include/c++/14/stdexcept /usr/include/c++/14/exception \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \

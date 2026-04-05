@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/eDeodX/workspace/tasks/HM3
+CMAKE_SOURCE_DIR = /root/eDeodX/workspace/tasks/lab04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/eDeodX/workspace/tasks/HM3/_build
+CMAKE_BINARY_DIR = /root/eDeodX/workspace/tasks/lab04/_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles /root/eDeodX/workspace/tasks/HM3/_build/examples/solver//CMakeFiles/progress.marks
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/solver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 0
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles /root/eDeodX/workspace/tasks/lab04/_build/examples/solver//CMakeFiles/progress.marks
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/solver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/solver/clean
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/solver/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/solver/preinstall
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/solver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/solver/preinstall
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/solver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/solver/CMakeFiles/solver_app.dir/rule:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/solver/CMakeFiles/solver_app.dir/rule
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/solver/CMakeFiles/solver_app.dir/rule
 .PHONY : examples/solver/CMakeFiles/solver_app.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ solver_app: examples/solver/CMakeFiles/solver_app.dir/rule
 
 # fast build rule for target.
 solver_app/fast:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f examples/solver/CMakeFiles/solver_app.dir/build.make examples/solver/CMakeFiles/solver_app.dir/build
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f examples/solver/CMakeFiles/solver_app.dir/build.make examples/solver/CMakeFiles/solver_app.dir/build
 .PHONY : solver_app/fast
 
 solver.o: solver.cpp.o
@@ -135,7 +135,7 @@ solver.o: solver.cpp.o
 
 # target to build an object file
 solver.cpp.o:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f examples/solver/CMakeFiles/solver_app.dir/build.make examples/solver/CMakeFiles/solver_app.dir/solver.cpp.o
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f examples/solver/CMakeFiles/solver_app.dir/build.make examples/solver/CMakeFiles/solver_app.dir/solver.cpp.o
 .PHONY : solver.cpp.o
 
 solver.i: solver.cpp.i
@@ -143,7 +143,7 @@ solver.i: solver.cpp.i
 
 # target to preprocess a source file
 solver.cpp.i:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f examples/solver/CMakeFiles/solver_app.dir/build.make examples/solver/CMakeFiles/solver_app.dir/solver.cpp.i
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f examples/solver/CMakeFiles/solver_app.dir/build.make examples/solver/CMakeFiles/solver_app.dir/solver.cpp.i
 .PHONY : solver.cpp.i
 
 solver.s: solver.cpp.s
@@ -151,7 +151,7 @@ solver.s: solver.cpp.s
 
 # target to generate assembly for a file
 solver.cpp.s:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f examples/solver/CMakeFiles/solver_app.dir/build.make examples/solver/CMakeFiles/solver_app.dir/solver.cpp.s
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f examples/solver/CMakeFiles/solver_app.dir/build.make examples/solver/CMakeFiles/solver_app.dir/solver.cpp.s
 .PHONY : solver.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

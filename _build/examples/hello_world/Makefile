@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/eDeodX/workspace/tasks/HM3
+CMAKE_SOURCE_DIR = /root/eDeodX/workspace/tasks/lab04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/eDeodX/workspace/tasks/HM3/_build
+CMAKE_BINARY_DIR = /root/eDeodX/workspace/tasks/lab04/_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles /root/eDeodX/workspace/tasks/HM3/_build/examples/hello_world//CMakeFiles/progress.marks
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hello_world/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 0
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles /root/eDeodX/workspace/tasks/lab04/_build/examples/hello_world//CMakeFiles/progress.marks
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hello_world/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hello_world/clean
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hello_world/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hello_world/preinstall
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hello_world/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hello_world/preinstall
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hello_world/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/hello_world/CMakeFiles/hello_world.dir/rule:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hello_world/CMakeFiles/hello_world.dir/rule
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hello_world/CMakeFiles/hello_world.dir/rule
 .PHONY : examples/hello_world/CMakeFiles/hello_world.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ hello_world: examples/hello_world/CMakeFiles/hello_world.dir/rule
 
 # fast build rule for target.
 hello_world/fast:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f examples/hello_world/CMakeFiles/hello_world.dir/build.make examples/hello_world/CMakeFiles/hello_world.dir/build
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f examples/hello_world/CMakeFiles/hello_world.dir/build.make examples/hello_world/CMakeFiles/hello_world.dir/build
 .PHONY : hello_world/fast
 
 hello_world.o: hello_world.cpp.o
@@ -135,7 +135,7 @@ hello_world.o: hello_world.cpp.o
 
 # target to build an object file
 hello_world.cpp.o:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f examples/hello_world/CMakeFiles/hello_world.dir/build.make examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f examples/hello_world/CMakeFiles/hello_world.dir/build.make examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o
 .PHONY : hello_world.cpp.o
 
 hello_world.i: hello_world.cpp.i
@@ -143,7 +143,7 @@ hello_world.i: hello_world.cpp.i
 
 # target to preprocess a source file
 hello_world.cpp.i:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f examples/hello_world/CMakeFiles/hello_world.dir/build.make examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.i
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f examples/hello_world/CMakeFiles/hello_world.dir/build.make examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.i
 .PHONY : hello_world.cpp.i
 
 hello_world.s: hello_world.cpp.s
@@ -151,7 +151,7 @@ hello_world.s: hello_world.cpp.s
 
 # target to generate assembly for a file
 hello_world.cpp.s:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f examples/hello_world/CMakeFiles/hello_world.dir/build.make examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.s
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f examples/hello_world/CMakeFiles/hello_world.dir/build.make examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.s
 .PHONY : hello_world.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

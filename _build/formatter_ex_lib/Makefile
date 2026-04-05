@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/eDeodX/workspace/tasks/HM3
+CMAKE_SOURCE_DIR = /root/eDeodX/workspace/tasks/lab04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/eDeodX/workspace/tasks/HM3/_build
+CMAKE_BINARY_DIR = /root/eDeodX/workspace/tasks/lab04/_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles /root/eDeodX/workspace/tasks/HM3/_build/formatter_ex_lib//CMakeFiles/progress.marks
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex_lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 0
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles /root/eDeodX/workspace/tasks/lab04/_build/formatter_ex_lib//CMakeFiles/progress.marks
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex_lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex_lib/clean
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex_lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex_lib/preinstall
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex_lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex_lib/preinstall
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex_lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 formatter_ex_lib/CMakeFiles/formatter_ex.dir/rule:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex_lib/CMakeFiles/formatter_ex.dir/rule
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex_lib/CMakeFiles/formatter_ex.dir/rule
 .PHONY : formatter_ex_lib/CMakeFiles/formatter_ex.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ formatter_ex: formatter_ex_lib/CMakeFiles/formatter_ex.dir/rule
 
 # fast build rule for target.
 formatter_ex/fast:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/build
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/build
 .PHONY : formatter_ex/fast
 
 sources/formatter_ex.o: sources/formatter_ex.cpp.o
@@ -135,7 +135,7 @@ sources/formatter_ex.o: sources/formatter_ex.cpp.o
 
 # target to build an object file
 sources/formatter_ex.cpp.o:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/sources/formatter_ex.cpp.o
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/sources/formatter_ex.cpp.o
 .PHONY : sources/formatter_ex.cpp.o
 
 sources/formatter_ex.i: sources/formatter_ex.cpp.i
@@ -143,7 +143,7 @@ sources/formatter_ex.i: sources/formatter_ex.cpp.i
 
 # target to preprocess a source file
 sources/formatter_ex.cpp.i:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/sources/formatter_ex.cpp.i
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/sources/formatter_ex.cpp.i
 .PHONY : sources/formatter_ex.cpp.i
 
 sources/formatter_ex.s: sources/formatter_ex.cpp.s
@@ -151,7 +151,7 @@ sources/formatter_ex.s: sources/formatter_ex.cpp.s
 
 # target to generate assembly for a file
 sources/formatter_ex.cpp.s:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/sources/formatter_ex.cpp.s
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/sources/formatter_ex.cpp.s
 .PHONY : sources/formatter_ex.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

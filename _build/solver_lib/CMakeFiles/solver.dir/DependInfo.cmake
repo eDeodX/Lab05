@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/eDeodX/workspace/tasks/HM3/solver_lib/sources/solver.cpp" "solver_lib/CMakeFiles/solver.dir/sources/solver.cpp.o" "gcc" "solver_lib/CMakeFiles/solver.dir/sources/solver.cpp.o.d"
+  "/root/eDeodX/workspace/tasks/lab04/solver_lib/sources/solver.cpp" "solver_lib/CMakeFiles/solver.dir/sources/solver.cpp.o" "gcc" "solver_lib/CMakeFiles/solver.dir/sources/solver.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

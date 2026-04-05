@@ -1,4 +1,4 @@
-# Install script for directory: /root/eDeodX/workspace/tasks/HM3
+# Install script for directory: /root/eDeodX/workspace/tasks/lab04
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,18 +44,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/eDeodX/workspace/tasks/HM3/_build/formatter_lib/cmake_install.cmake")
-  include("/root/eDeodX/workspace/tasks/HM3/_build/formatter_ex_lib/cmake_install.cmake")
-  include("/root/eDeodX/workspace/tasks/HM3/_build/solver_lib/cmake_install.cmake")
-  include("/root/eDeodX/workspace/tasks/HM3/_build/examples/hello_world/cmake_install.cmake")
-  include("/root/eDeodX/workspace/tasks/HM3/_build/examples/solver/cmake_install.cmake")
+  include("/root/eDeodX/workspace/tasks/lab04/_build/formatter_lib/cmake_install.cmake")
+  include("/root/eDeodX/workspace/tasks/lab04/_build/formatter_ex_lib/cmake_install.cmake")
+  include("/root/eDeodX/workspace/tasks/lab04/_build/solver_lib/cmake_install.cmake")
+  include("/root/eDeodX/workspace/tasks/lab04/_build/examples/hello_world/cmake_install.cmake")
+  include("/root/eDeodX/workspace/tasks/lab04/_build/examples/solver/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/root/eDeodX/workspace/tasks/HM3/_build/install_local_manifest.txt"
+  file(WRITE "/root/eDeodX/workspace/tasks/lab04/_build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -71,6 +71,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/root/eDeodX/workspace/tasks/HM3/_build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/root/eDeodX/workspace/tasks/lab04/_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

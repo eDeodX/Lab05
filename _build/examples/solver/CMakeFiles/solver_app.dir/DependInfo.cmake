@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/eDeodX/workspace/tasks/HM3/examples/solver/solver.cpp" "examples/solver/CMakeFiles/solver_app.dir/solver.cpp.o" "gcc" "examples/solver/CMakeFiles/solver_app.dir/solver.cpp.o.d"
+  "/root/eDeodX/workspace/tasks/lab04/examples/solver/solver.cpp" "examples/solver/CMakeFiles/solver_app.dir/solver.cpp.o" "gcc" "examples/solver/CMakeFiles/solver_app.dir/solver.cpp.o.d"
   "" "examples/solver/solver_app" "gcc" "examples/solver/CMakeFiles/solver_app.dir/link.d"
   )
 

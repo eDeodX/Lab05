@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/eDeodX/workspace/tasks/HM3
+CMAKE_SOURCE_DIR = /root/eDeodX/workspace/tasks/lab04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/eDeodX/workspace/tasks/HM3/_build
+CMAKE_BINARY_DIR = /root/eDeodX/workspace/tasks/lab04/_build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -196,14 +196,14 @@ solver_lib/clean: solver_lib/CMakeFiles/solver.dir/clean
 formatter_lib/CMakeFiles/formatter.dir/all:
 	$(MAKE) $(MAKESILENT) -f formatter_lib/CMakeFiles/formatter.dir/build.make formatter_lib/CMakeFiles/formatter.dir/depend
 	$(MAKE) $(MAKESILENT) -f formatter_lib/CMakeFiles/formatter.dir/build.make formatter_lib/CMakeFiles/formatter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=1,2 "Built target formatter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=1,2 "Built target formatter"
 .PHONY : formatter_lib/CMakeFiles/formatter.dir/all
 
 # Build rule for subdir invocation for target.
 formatter_lib/CMakeFiles/formatter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_lib/CMakeFiles/formatter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 0
 .PHONY : formatter_lib/CMakeFiles/formatter.dir/rule
 
 # Convenience name for target.
@@ -213,7 +213,7 @@ formatter: formatter_lib/CMakeFiles/formatter.dir/rule
 # codegen rule for target.
 formatter_lib/CMakeFiles/formatter.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f formatter_lib/CMakeFiles/formatter.dir/build.make formatter_lib/CMakeFiles/formatter.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=1,2 "Finished codegen for target formatter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=1,2 "Finished codegen for target formatter"
 .PHONY : formatter_lib/CMakeFiles/formatter.dir/codegen
 
 # clean rule for target.
@@ -228,14 +228,14 @@ formatter_lib/CMakeFiles/formatter.dir/clean:
 formatter_ex_lib/CMakeFiles/formatter_ex.dir/all: formatter_lib/CMakeFiles/formatter.dir/all
 	$(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/depend
 	$(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=3,4 "Built target formatter_ex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=3,4 "Built target formatter_ex"
 .PHONY : formatter_ex_lib/CMakeFiles/formatter_ex.dir/all
 
 # Build rule for subdir invocation for target.
 formatter_ex_lib/CMakeFiles/formatter_ex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex_lib/CMakeFiles/formatter_ex.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 0
 .PHONY : formatter_ex_lib/CMakeFiles/formatter_ex.dir/rule
 
 # Convenience name for target.
@@ -245,7 +245,7 @@ formatter_ex: formatter_ex_lib/CMakeFiles/formatter_ex.dir/rule
 # codegen rule for target.
 formatter_ex_lib/CMakeFiles/formatter_ex.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=3,4 "Finished codegen for target formatter_ex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=3,4 "Finished codegen for target formatter_ex"
 .PHONY : formatter_ex_lib/CMakeFiles/formatter_ex.dir/codegen
 
 # clean rule for target.
@@ -260,14 +260,14 @@ formatter_ex_lib/CMakeFiles/formatter_ex.dir/clean:
 solver_lib/CMakeFiles/solver.dir/all:
 	$(MAKE) $(MAKESILENT) -f solver_lib/CMakeFiles/solver.dir/build.make solver_lib/CMakeFiles/solver.dir/depend
 	$(MAKE) $(MAKESILENT) -f solver_lib/CMakeFiles/solver.dir/build.make solver_lib/CMakeFiles/solver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=7,8 "Built target solver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=7,8 "Built target solver"
 .PHONY : solver_lib/CMakeFiles/solver.dir/all
 
 # Build rule for subdir invocation for target.
 solver_lib/CMakeFiles/solver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solver_lib/CMakeFiles/solver.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 0
 .PHONY : solver_lib/CMakeFiles/solver.dir/rule
 
 # Convenience name for target.
@@ -277,7 +277,7 @@ solver: solver_lib/CMakeFiles/solver.dir/rule
 # codegen rule for target.
 solver_lib/CMakeFiles/solver.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f solver_lib/CMakeFiles/solver.dir/build.make solver_lib/CMakeFiles/solver.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=7,8 "Finished codegen for target solver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=7,8 "Finished codegen for target solver"
 .PHONY : solver_lib/CMakeFiles/solver.dir/codegen
 
 # clean rule for target.
@@ -293,14 +293,14 @@ examples/hello_world/CMakeFiles/hello_world.dir/all: formatter_lib/CMakeFiles/fo
 examples/hello_world/CMakeFiles/hello_world.dir/all: formatter_ex_lib/CMakeFiles/formatter_ex.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/hello_world/CMakeFiles/hello_world.dir/build.make examples/hello_world/CMakeFiles/hello_world.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/hello_world/CMakeFiles/hello_world.dir/build.make examples/hello_world/CMakeFiles/hello_world.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=5,6 "Built target hello_world"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=5,6 "Built target hello_world"
 .PHONY : examples/hello_world/CMakeFiles/hello_world.dir/all
 
 # Build rule for subdir invocation for target.
 examples/hello_world/CMakeFiles/hello_world.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hello_world/CMakeFiles/hello_world.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 0
 .PHONY : examples/hello_world/CMakeFiles/hello_world.dir/rule
 
 # Convenience name for target.
@@ -310,7 +310,7 @@ hello_world: examples/hello_world/CMakeFiles/hello_world.dir/rule
 # codegen rule for target.
 examples/hello_world/CMakeFiles/hello_world.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f examples/hello_world/CMakeFiles/hello_world.dir/build.make examples/hello_world/CMakeFiles/hello_world.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=5,6 "Finished codegen for target hello_world"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=5,6 "Finished codegen for target hello_world"
 .PHONY : examples/hello_world/CMakeFiles/hello_world.dir/codegen
 
 # clean rule for target.
@@ -327,14 +327,14 @@ examples/solver/CMakeFiles/solver_app.dir/all: formatter_ex_lib/CMakeFiles/forma
 examples/solver/CMakeFiles/solver_app.dir/all: solver_lib/CMakeFiles/solver.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/solver/CMakeFiles/solver_app.dir/build.make examples/solver/CMakeFiles/solver_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/solver/CMakeFiles/solver_app.dir/build.make examples/solver/CMakeFiles/solver_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=9,10 "Built target solver_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=9,10 "Built target solver_app"
 .PHONY : examples/solver/CMakeFiles/solver_app.dir/all
 
 # Build rule for subdir invocation for target.
 examples/solver/CMakeFiles/solver_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/solver/CMakeFiles/solver_app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles 0
 .PHONY : examples/solver/CMakeFiles/solver_app.dir/rule
 
 # Convenience name for target.
@@ -344,7 +344,7 @@ solver_app: examples/solver/CMakeFiles/solver_app.dir/rule
 # codegen rule for target.
 examples/solver/CMakeFiles/solver_app.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f examples/solver/CMakeFiles/solver_app.dir/build.make examples/solver/CMakeFiles/solver_app.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=9,10 "Finished codegen for target solver_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=9,10 "Finished codegen for target solver_app"
 .PHONY : examples/solver/CMakeFiles/solver_app.dir/codegen
 
 # clean rule for target.

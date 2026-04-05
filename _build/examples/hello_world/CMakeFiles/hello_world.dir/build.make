@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/eDeodX/workspace/tasks/HM3
+CMAKE_SOURCE_DIR = /root/eDeodX/workspace/tasks/lab04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/eDeodX/workspace/tasks/HM3/_build
+CMAKE_BINARY_DIR = /root/eDeodX/workspace/tasks/lab04/_build
 
 # Include any dependencies generated for this target.
 include examples/hello_world/CMakeFiles/hello_world.dir/depend.make
@@ -73,18 +73,18 @@ examples/hello_world/CMakeFiles/hello_world.dir/codegen:
 .PHONY : examples/hello_world/CMakeFiles/hello_world.dir/codegen
 
 examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o: examples/hello_world/CMakeFiles/hello_world.dir/flags.make
-examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o: /root/eDeodX/workspace/tasks/HM3/examples/hello_world/hello_world.cpp
+examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o: /root/eDeodX/workspace/tasks/lab04/examples/hello_world/hello_world.cpp
 examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o: examples/hello_world/CMakeFiles/hello_world.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o"
-	cd /root/eDeodX/workspace/tasks/HM3/_build/examples/hello_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o -MF CMakeFiles/hello_world.dir/hello_world.cpp.o.d -o CMakeFiles/hello_world.dir/hello_world.cpp.o -c /root/eDeodX/workspace/tasks/HM3/examples/hello_world/hello_world.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o"
+	cd /root/eDeodX/workspace/tasks/lab04/_build/examples/hello_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o -MF CMakeFiles/hello_world.dir/hello_world.cpp.o.d -o CMakeFiles/hello_world.dir/hello_world.cpp.o -c /root/eDeodX/workspace/tasks/lab04/examples/hello_world/hello_world.cpp
 
 examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello_world.dir/hello_world.cpp.i"
-	cd /root/eDeodX/workspace/tasks/HM3/_build/examples/hello_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/eDeodX/workspace/tasks/HM3/examples/hello_world/hello_world.cpp > CMakeFiles/hello_world.dir/hello_world.cpp.i
+	cd /root/eDeodX/workspace/tasks/lab04/_build/examples/hello_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/eDeodX/workspace/tasks/lab04/examples/hello_world/hello_world.cpp > CMakeFiles/hello_world.dir/hello_world.cpp.i
 
 examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello_world.dir/hello_world.cpp.s"
-	cd /root/eDeodX/workspace/tasks/HM3/_build/examples/hello_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/eDeodX/workspace/tasks/HM3/examples/hello_world/hello_world.cpp -o CMakeFiles/hello_world.dir/hello_world.cpp.s
+	cd /root/eDeodX/workspace/tasks/lab04/_build/examples/hello_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/eDeodX/workspace/tasks/lab04/examples/hello_world/hello_world.cpp -o CMakeFiles/hello_world.dir/hello_world.cpp.s
 
 # Object files for target hello_world
 hello_world_OBJECTS = \
@@ -99,18 +99,18 @@ examples/hello_world/hello_world: examples/hello_world/CMakeFiles/hello_world.di
 examples/hello_world/hello_world: formatter_ex_lib/libformatter_ex.a
 examples/hello_world/hello_world: formatter_lib/libformatter.a
 examples/hello_world/hello_world: examples/hello_world/CMakeFiles/hello_world.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/eDeodX/workspace/tasks/HM3/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hello_world"
-	cd /root/eDeodX/workspace/tasks/HM3/_build/examples/hello_world && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello_world.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/eDeodX/workspace/tasks/lab04/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hello_world"
+	cd /root/eDeodX/workspace/tasks/lab04/_build/examples/hello_world && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello_world.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/hello_world/CMakeFiles/hello_world.dir/build: examples/hello_world/hello_world
 .PHONY : examples/hello_world/CMakeFiles/hello_world.dir/build
 
 examples/hello_world/CMakeFiles/hello_world.dir/clean:
-	cd /root/eDeodX/workspace/tasks/HM3/_build/examples/hello_world && $(CMAKE_COMMAND) -P CMakeFiles/hello_world.dir/cmake_clean.cmake
+	cd /root/eDeodX/workspace/tasks/lab04/_build/examples/hello_world && $(CMAKE_COMMAND) -P CMakeFiles/hello_world.dir/cmake_clean.cmake
 .PHONY : examples/hello_world/CMakeFiles/hello_world.dir/clean
 
 examples/hello_world/CMakeFiles/hello_world.dir/depend:
-	cd /root/eDeodX/workspace/tasks/HM3/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/eDeodX/workspace/tasks/HM3 /root/eDeodX/workspace/tasks/HM3/examples/hello_world /root/eDeodX/workspace/tasks/HM3/_build /root/eDeodX/workspace/tasks/HM3/_build/examples/hello_world /root/eDeodX/workspace/tasks/HM3/_build/examples/hello_world/CMakeFiles/hello_world.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/eDeodX/workspace/tasks/lab04/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/eDeodX/workspace/tasks/lab04 /root/eDeodX/workspace/tasks/lab04/examples/hello_world /root/eDeodX/workspace/tasks/lab04/_build /root/eDeodX/workspace/tasks/lab04/_build/examples/hello_world /root/eDeodX/workspace/tasks/lab04/_build/examples/hello_world/CMakeFiles/hello_world.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : examples/hello_world/CMakeFiles/hello_world.dir/depend
 

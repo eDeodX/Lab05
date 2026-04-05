@@ -1,5 +1,5 @@
 examples/solver/CMakeFiles/solver_app.dir/solver.cpp.o: \
- /root/eDeodX/workspace/tasks/HM3/examples/solver/solver.cpp \
+ /root/eDeodX/workspace/tasks/lab04/examples/solver/solver.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14/iostream \
  /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
@@ -160,5 +160,5 @@ examples/solver/CMakeFiles/solver_app.dir/solver.cpp.o: \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc \
- /root/eDeodX/workspace/tasks/HM3/formatter_ex_lib/include/formatter_ex.h \
- /root/eDeodX/workspace/tasks/HM3/solver_lib/include/solver.h
+ /root/eDeodX/workspace/tasks/lab04/examples/solver/../../formatter_ex_lib/include/formatter_ex.h \
+ /root/eDeodX/workspace/tasks/lab04/examples/solver/../../solver_lib/include/solver.h

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/eDeodX/workspace/tasks/HM3/solver_lib/include
+CXX_INCLUDES = -I/root/eDeodX/workspace/tasks/lab04/solver_lib/include
 
 CXX_FLAGS = -std=gnu++11
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/eDeodX/workspace/tasks/HM3/examples/hello_world/hello_world.cpp" "examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o" "gcc" "examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o.d"
+  "/root/eDeodX/workspace/tasks/lab04/examples/hello_world/hello_world.cpp" "examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o" "gcc" "examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o.d"
   "" "examples/hello_world/hello_world" "gcc" "examples/hello_world/CMakeFiles/hello_world.dir/link.d"
   )
 

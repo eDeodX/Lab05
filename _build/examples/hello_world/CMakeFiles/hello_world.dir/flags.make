@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/eDeodX/workspace/tasks/HM3/formatter_ex_lib/include -I/root/eDeodX/workspace/tasks/HM3/formatter_lib/include
+CXX_INCLUDES = -I/root/eDeodX/workspace/tasks/lab04/examples/hello_world/../../formatter_ex_lib/include -I/root/eDeodX/workspace/tasks/lab04/formatter_ex_lib/include -I/root/eDeodX/workspace/tasks/lab04/formatter_ex_lib/../formatter_lib/include
 
 CXX_FLAGS = 
 

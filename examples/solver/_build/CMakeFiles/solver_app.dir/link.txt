@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/solver_app.dir/link.d CMakeFiles/solver_app.dir/solver.cpp.o -o solver_app  -lformatter_ex -lsolver

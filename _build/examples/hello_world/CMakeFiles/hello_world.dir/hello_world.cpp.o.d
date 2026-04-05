@@ -1,5 +1,5 @@
 examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o: \
- /root/eDeodX/workspace/tasks/HM3/examples/hello_world/hello_world.cpp \
+ /root/eDeodX/workspace/tasks/lab04/examples/hello_world/hello_world.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14/iostream \
  /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
@@ -160,4 +160,4 @@ examples/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o: \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc \
- /root/eDeodX/workspace/tasks/HM3/formatter_ex_lib/include/formatter_ex.h
+ /root/eDeodX/workspace/tasks/lab04/examples/hello_world/../../formatter_ex_lib/include/formatter_ex.h
