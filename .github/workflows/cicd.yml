@@ -43,6 +43,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: remove cache
+        shell: cmd
         run: |
           if exist build rmdir /s /q build
           if exist _build rmdir /s /q _build
