@@ -1,2 +1,0 @@
-/usr/bin/ar qc libformatter.a CMakeFiles/formatter.dir/sources/formatter.cpp.o
-/usr/bin/ranlib libformatter.a
