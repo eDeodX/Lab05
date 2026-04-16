@@ -6,7 +6,7 @@ public:
 	MOCK_METHOD(int, connect, (), (override));
 };
 
-TEST(Arithm, send) {
+TEST(connect, send) {
 	MockA a;
 	EXPECT_CALL(a, connect());
 	send(a);

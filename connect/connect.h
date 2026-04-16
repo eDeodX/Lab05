@@ -1,6 +1,7 @@
 class A {
 public:
-	int connect();
+	virtual int connect();
+	virtual ~A();
 };
 
 int send(A& a);
